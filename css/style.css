@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+}
+header{
+    background-image: url(img/paris.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 30px;
+}
+div.doboz{
+    border-style: groove;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: rgba(128, 128, 128, 0.315);
+    background-color:rgba(240, 248, 255, 0.897);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 20;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+}
+.cim{
+    color: rgb(15, 80, 134);
+    font-size: 300%;
+}
+.cimsor1{
+    color: rgb(15, 80, 134);
+    font-size: 250%;
+}
+.szerzo{
+    text-align: right;
+}
+.hatter{
+    background-color: rgb(170, 139, 93);
+    border: 1px solid rgb(58, 83, 194);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+div p img{
+    border: 1px solid rgb(58, 83, 194);
+}
+footer{
+    text-align: center;
+}
+footer ul li{
+    list-style-type: none;
+}
+.bal{
+    float: left;
+}
+.jobb{
+    float:right;
+}
